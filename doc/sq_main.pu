@@ -1,0 +1,14 @@
+@startuml
+title 正常系
+autonumber
+
+actor ユーザ as user
+box src #LightPink
+    participant App.tsx
+end box
+box src-tauri #LightCyan
+    participant main.rs
+end box
+
+
+@enduml
